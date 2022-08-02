@@ -1,0 +1,240 @@
+/* ------------------------------------ Main ------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo{
+    position: absolute;
+    padding: 15px 50px;
+}
+
+.logoimg{
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+li a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.1s;
+}
+
+/* ------------------------------------ Footer ------------------------------------*/
+
+footer{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ------------------------------------ Hero ------------------------------------*/
+
+.hero{
+    font-size: 50px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: 
+    linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./imagenes/Logo/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+    font-weight: bold;
+}   
+
+/* ------------------------------------ Section 1 ------------------------------------*/
+
+.section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section1__imgs{
+    width: 50%;
+}
+
+.section1__dwig{
+    margin-top: 100px;
+    margin-left: 250px;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.section1__preview{
+    border-radius: 10px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    top: 950px;
+}
+
+.section1__text{
+    display: block;
+    width: 50%;
+    padding-right: 250px;
+    justify-content: flex-start;
+    line-height: 30px;
+    margin-top: 120px;
+}
+
+.section1__cotizar{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.section1 a{
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+}
+
+.section1 a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ------------------------------------ Section 2 ------------------------------------*/
+
+.section2{
+    display: flex;
+    width: 100%;
+    padding: 130px 0px 80px 30px;
+}
+.section2__imgs{
+    height: 200px;
+    width: 200px;
+}
+
+.section2__container{
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2__item{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* ------------------------------------ Section 3 ------------------------------------*/
+
+.section3{
+    background-color: #41099D;
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.section3__h2{
+    font-size: 50px;
+}
+
+.section3__btn{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: white;
+    color: #41099D;
+    font-size: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.section3__btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.section3__list ul{
+    font-size: 20px;
+}
+
+.section3__list li{
+    margin: 50px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.formulario{
+    padding-top: 100px;
+    padding-left: 50px;
+    border-radius: 20px;
+    background-color: #41099D;
+    color: white;
+}
+
+
+
+
+
